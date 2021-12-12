@@ -8,7 +8,7 @@ WORKDIR /spaceapps_test
 RUN pip install --upgrade pip
 
 #Install required packages
-RUN pip3 install numpy scikit-learn matplotlib tensorflow segmentation-models 
+RUN pip3 install numpy scikit-learn matplotlib tensorflow segmentation-models albumentations
 #keras-segmentation
 RUN pip3 install jupyter
 
