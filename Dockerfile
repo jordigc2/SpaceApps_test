@@ -8,7 +8,8 @@ WORKDIR /spaceapps_test
 RUN pip install --upgrade pip
 
 #Install required packages
-RUN pip install numpy scikit-learn matplotlib tensorflow
+RUN pip3 install numpy scikit-learn matplotlib tensorflow segmentation-models 
+#keras-segmentation
 RUN pip3 install jupyter
 
 #run the container in bash
