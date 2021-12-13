@@ -1,6 +1,9 @@
 # SpaceApps_test
 Programming test to perform Semantic Segmentation from the data set AI4Mars
 
+## Preparing data
+Create the folder **./data** and store inside the AI4Mars dataset provided in google drive.
+
 ## Building image
 ```
 sudo docker build -t spaceapps .
