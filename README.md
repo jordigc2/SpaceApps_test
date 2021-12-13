@@ -11,5 +11,5 @@ sudo docker build -t spaceapps .
 
 ## Running container
 ```
-sudo docker run -p 8888:8888 -v /home/jgc/Documents/SpaceApps_test:/spaceapps_test/ spaceapps
+sudo docker run -p 8888:8888 -v <path-from-root-to-repo>/SpaceApps_test:/spaceapps_test/ spaceapps
 ```
