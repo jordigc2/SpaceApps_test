@@ -1,13 +1,6 @@
 # SpaceApps_test
 Programming test to perform Semantic Segmentation from the data set AI4Mars
 
-<<<<<<< HEAD
-## Building image
-<sudo docker build -t spaceapps .>
-
-## Running container
-<sudo docker run -p 8888:8888 -v /home/jgc/Documents/SpaceApps_test:/spaceapps_test/ spaceapps>
-=======
 ## Preparing data
 Create the folder **./data** and store inside the AI4Mars dataset provided in google drive.
 
@@ -26,4 +19,4 @@ Go into the folder src and open the **Code.ipynb** to see the last execution don
 
 ### NOTE
 I wanted to upload the NN weiths but the .zip file was 113MB, which made it not possible to upload to github. Use [this link](https://drive.google.com/file/d/1Nvc611AhQ2IUn9lalt-5-86Asrni8-ri/view?usp=sharing) to Drive to download the checkpoints and copy them inside the **./src** folder.
->>>>>>> e62e8ea10614894a2f71e02d022ff9172a70c2c7
+
